@@ -4,6 +4,8 @@
 
 ESP32マイコンなどとAndroidをBLEで接続し、データの送受信、受信データのグラフ表示などを行うAndroidアプリ
 
+※デバイスが「ESP32に接続」ボタンを押しても接続できない場合、AndroidのBluetoothを一度OFFにして再度ONにすると改善する場合があります
+
 <img src="1.png">
 
 # 機能（Function）

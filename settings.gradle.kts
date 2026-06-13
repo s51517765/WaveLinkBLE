@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Greeting Card"
+rootProject.name = "WaveLinkBLE"
 include(":app")

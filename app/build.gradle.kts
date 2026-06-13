@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.greetingcard"
+        applicationId = "jp.hatenadiary.s51517765.wavelinkble" //通常のURL形式は使えない
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -28,6 +28,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
